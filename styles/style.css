@@ -1,0 +1,339 @@
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+}
+
+/* navigation-banner-style */
+
+.banner{
+    background-image: url('../assets/Hero-bg.png');
+    max-width: 1519px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 154px;
+}
+
+.img{
+    width: 240px;
+    height: 240px;
+    margin-left: 650px;
+}
+.header-text{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+    margin-top: 32px;
+}
+.p-text{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 5px;
+    opacity: 0.7;
+}
+
+#button{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.center{
+    margin-left: 650px;
+    margin-top: 32px;
+}
+
+/* why-web-style-container-part1 */
+
+.color{
+    position: absolute;
+    max-width: 1140px;
+    height: 1260px;
+    left: 148px;
+    right: 152px;
+    top: 857px;
+    bottom: 2993px;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.h-text{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.container-layer1{
+    position: static;
+    width: 946px;
+    height: 250px;
+    display: flex;
+    padding: 48px;
+    background-color: white;
+}
+ .text-area{
+    width: 477px;
+    height: 220px;
+
+ }
+  .style-head {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 48px;
+ }
+
+ .style-p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 48px;
+    margin-bottom: 50px;
+ }
+
+section div p a{ 
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 20px;
+ }
+
+ .img-area{
+    width: 255px;
+    height: 220px;
+    margin-left: 150px;
+ }
+ /* why-web-style-container-part2 */
+
+ .container-layer2{
+    position: static;
+    width: 946px;
+    height: 250px;
+    display: flex;
+    padding: 48px;
+    background-color: white;
+    margin-top: 32px;
+}
+
+.img-area2{
+    width: 255px;
+    height: 220px;
+    margin-left: -120px;
+ }
+
+ /* img-container-style */
+
+.img-container{
+    max-width: 1140px;
+    position: relative;
+    /* height: 777px; */
+    padding: 0px;
+    margin-top: 200px;
+}
+.img-sizing{
+    width: 1150px;
+    height: 650px;
+    margin-top: 40px;
+    margin-left: -50px;
+    border: 1px solid rgb(225, 221, 221);
+    border-radius: 16px;
+    padding: 15px 15px;
+}
+ 
+/* my-current-target-container-style */
+
+.my-current-target{
+    position: static;
+    max-width: 1140px;
+    height: 463px;
+    margin-top: 150px;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 60px;
+}
+
+.container-sizing{
+    max-width: 300px;
+    height: 230px;
+    padding: 40px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+.color1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.color2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.color3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.text-bold{
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text-opacity{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.text-none{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* next-target-container-style */
+
+.next-target-container{
+    max-width: 1140px;
+    height: 871px;
+    margin-top: 115px;
+}
+
+.about-container{
+    display: flex;
+
+}
+
+.flex-none-container{
+    display: flex;
+    flex: none;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.margin-sizing{
+    margin-right: 20px;
+}
+
+.color-h1{
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.color-p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+/* last-container-style */
+
+.last-container{
+    max-width: 1400px;
+    height: 300px;
+    margin-top: 100px;
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+}
+ 
+.h1-crop{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.p-crop{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 300px;
+    margin-top: -20px;
+    opacity: 0.7;
+}
+
+.input-style{
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 15px 130px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    margin-left: 10px;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 5px
+}
+
+.submit{
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* footer-container-style */
+
+.footer-container{
+    width: 1519px;
+    height: 100px;
+    margin-top: 4400px;
+    background-color:  rgba(13, 19, 33, 0.03);
+    display: flex;
+}
+
+.size{
+    width: 50%;
+    margin-top: 25px;
+}
+
+.size1{
+    margin-top: 35px;
+    margin-left: 500px;
+}
+
+.space{
+    margin-right: 10px;
+}
+
+.szing{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
